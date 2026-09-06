@@ -1,10 +1,10 @@
-# SerfSurf / Октава
+# ФимКино
 
-Визитная карточка онлайн-школы гитары. Статический сайт для GitHub Pages.
+Сайт школы юных гитаристов. Статика для GitHub Pages.
 
 ## Локальный просмотр
 
-Откройте `index.html` в браузере или поднимите простой сервер:
+Откройте `index.html` в браузере или:
 
 ```bash
 npx --yes serve .
@@ -12,17 +12,9 @@ npx --yes serve .
 
 ## GitHub Pages
 
-1. Settings → Pages → Source: **Deploy from a branch**
-2. Branch: `main` / folder: `/ (root)`
-3. Сайт будет доступен по адресу `https://<user>.github.io/SerfSurf/`
+Settings → Pages → Deploy from a branch → `main` / `/ (root)`
 
-## Где менять контент
+## Контакты
 
-В `index.html` помечены комментариями `<!-- PLACEHOLDER -->`:
-
-- название бренда («Октава» — временное)
-- программы обучения
-- цены
-- тексты отзывов
-- фото преподавателя и галерея
-- контакты (Telegram, WhatsApp, email)
+- Telegram: [@MuzSerafim](https://t.me/MuzSerafim)
+- Email: Serafimusic@yandex.com

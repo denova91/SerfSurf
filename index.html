@@ -3,20 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Октава — онлайн-школа гитары. Индивидуальные уроки, понятная программа, живой звук." />
-  <title>Октава — онлайн-школа гитары</title>
+  <meta name="description" content="ФимКино — школа юных гитаристов. Онлайн-уроки, где каждый доходит до цели за считаные месяцы." />
+  <title>ФимКино — школа юных гитаристов</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700;800&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="noise" aria-hidden="true"></div>
+
   <header class="site-header">
-    <a class="logo" href="#top">Октава</a>
+    <a class="logo" href="#top">Фим<span>Кино</span></a>
     <nav class="nav" aria-label="Основная навигация">
-      <a href="#programs">Программы</a>
+      <a href="#programs">Программа обучения</a>
+      <a href="#about">Как проходит обучение</a>
       <a href="#prices">Цены</a>
-      <a href="#gallery">Галерея</a>
       <a href="#reviews">Отзывы</a>
       <a class="nav-cta" href="#contact">Записаться</a>
     </nav>
@@ -28,181 +30,146 @@
   <main id="top">
     <section class="hero">
       <div class="hero-media" aria-hidden="true">
-        <img
-          src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=1800&q=80"
-          alt=""
-          width="1800"
-          height="1200"
-        />
+        <img src="assets/hero.jpg" alt="" width="1600" height="900" />
       </div>
       <div class="hero-content">
-        <p class="brand">Октава</p>
-        <h1>Гитара с нуля до своей сцены</h1>
-        <p class="lead">Онлайн-уроки, где звук важнее теории — играете с первого занятия.</p>
+        <p class="brand">ФимКино</p>
+        <h1>Школа юных гитаристов</h1>
+        <p class="lead">Онлайн-уроки, где каждый доходит до поставленной цели за считаные месяцы</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact">Бесплатный пробный урок</a>
-          <a class="btn btn-ghost" href="#programs">Смотреть программы</a>
+          <a class="btn btn-primary" href="#contact">Записаться</a>
+          <a class="btn btn-ghost" href="#programs">Программа обучения</a>
         </div>
+      </div>
+    </section>
+
+    <section class="section instruments" aria-label="Инструменты">
+      <p class="instruments-label">Учим играть на</p>
+      <div class="instruments-row">
+        <span>Акустическая гитара</span>
+        <span class="dot" aria-hidden="true"></span>
+        <span>Классическая гитара</span>
       </div>
     </section>
 
     <section class="section programs" id="programs">
       <div class="section-head">
-        <h2>Чему учим</h2>
-        <p>Выберите направление — или соберём программу под вашу цель.</p>
+        <p class="eyebrow">Программа</p>
+        <h2>Чему ты научишься:</h2>
       </div>
-      <ul class="program-list">
+      <ol class="program-list">
         <li class="reveal">
           <span class="program-num">01</span>
-          <div>
-            <h3>Акустика с нуля</h3>
-            <p><!-- PLACEHOLDER --> Постановка рук, аккорды, ритм и первые песни под ваш голос.</p>
-          </div>
+          <p>Быстрый старт: базовые и продвинутые аккорды, первые песни</p>
         </li>
         <li class="reveal">
           <span class="program-num">02</span>
-          <div>
-            <h3>Электрогитара</h3>
-            <p><!-- PLACEHOLDER --> Риффы, соло, эффекты и звучание в любимом жанре — от рока до блюза.</p>
-          </div>
+          <p>Делаем твою игру уникальной, изучив новые приёмы и базовую теорию</p>
         </li>
         <li class="reveal">
           <span class="program-num">03</span>
-          <div>
-            <h3>Фингерстайл</h3>
-            <p><!-- PLACEHOLDER --> Независимая работа пальцев, аранжировки и красивые соло-пьесы.</p>
-          </div>
+          <p>Научишься круто играть фингерстайл, соло и мелодии</p>
         </li>
         <li class="reveal">
           <span class="program-num">04</span>
-          <div>
-            <h3>Для детей</h3>
-            <p><!-- PLACEHOLDER --> Короткие уроки в игровой форме — без скуки и с видимым прогрессом.</p>
-          </div>
+          <p>Прокачаешь слух, сможешь подбирать любые песни и писать аранжировки</p>
         </li>
-      </ul>
+      </ol>
     </section>
 
     <section class="section about" id="about">
       <div class="about-grid">
         <div class="about-copy reveal">
+          <p class="eyebrow light">Процесс</p>
           <h2>Как проходит обучение</h2>
-          <p><!-- PLACEHOLDER --> Живые занятия 1:1 по видеосвязи. Запись урока остаётся у вас. Домашние задания — короткие и конкретные.</p>
+          <p class="about-lead">Живые занятия в группе единомышленников по Zoom. Запись урока остаётся у вас. Домашние задания — короткие и конкретные.</p>
           <ul class="about-points">
-            <li>Индивидуальный темп</li>
-            <li>Репертуар под ваши вкусы</li>
-            <li>Поддержка между уроками</li>
+            <li>Прогресс уже через месяц</li>
+            <li>Комьюнити таких же, как ты</li>
+            <li>Возможность задать вопрос</li>
+            <li>Нет возможности совершить ошибку и потом долго переучиваться</li>
           </ul>
         </div>
-        <figure class="about-photo reveal">
-          <img
-            src="https://images.unsplash.com/photo-1525201548942-d8732f6617a0?auto=format&fit=crop&w=1200&q=80"
-            alt="Преподаватель с гитарой на уроке"
-            width="1200"
-            height="1500"
-          />
-          <figcaption><!-- PLACEHOLDER --> Имя преподавателя · опыт N лет</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="section gallery" id="gallery">
-      <div class="section-head">
-        <h2>Атмосфера</h2>
-        <p>Кадры с занятий, выступлений и домашних репетиций.</p>
-      </div>
-      <div class="gallery-grid">
-        <figure class="gallery-item tall reveal">
-          <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=900&q=80" alt="Гитара крупным планом" width="900" height="1200" />
-        </figure>
-        <figure class="gallery-item reveal">
-          <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80" alt="Музыкант на сцене" width="900" height="700" />
-        </figure>
-        <figure class="gallery-item reveal">
-          <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=900&q=80" alt="Студия и инструменты" width="900" height="700" />
-        </figure>
-        <figure class="gallery-item wide reveal">
-          <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1400&q=80" alt="Живое выступление" width="1400" height="800" />
+        <figure class="teacher reveal">
+          <div class="teacher-photo">
+            <img src="assets/teacher.png" alt="Суранов Серафим" width="640" height="640" />
+          </div>
+          <figcaption>
+            <p class="teacher-role">Преподаватель</p>
+            <h3>Суранов Серафим</h3>
+            <p>Опыт игры на гитаре более 7 лет, 2 года в преподавании</p>
+          </figcaption>
         </figure>
       </div>
     </section>
 
     <section class="section prices" id="prices">
       <div class="section-head">
+        <p class="eyebrow">Тарифы</p>
         <h2>Цены</h2>
-        <p>Прозрачные тарифы — без скрытых платежей.</p>
       </div>
       <div class="price-table">
         <article class="price-row reveal">
           <div class="price-info">
             <h3>Разовый урок</h3>
-            <p><!-- PLACEHOLDER --> 55 минут · индивидуально · онлайн</p>
+            <p>1 час · онлайн</p>
           </div>
-          <p class="price-value"><span><!-- PLACEHOLDER -->1 500</span> ₽</p>
+          <p class="price-value">1 000 ₽</p>
           <a class="btn btn-ghost" href="#contact">Выбрать</a>
         </article>
         <article class="price-row featured reveal">
           <div class="price-info">
-            <h3>Абонемент 4 урока</h3>
-            <p><!-- PLACEHOLDER --> Гибкое расписание · запись занятий</p>
+            <h3>Абонемент на месяц</h3>
+            <p>2 урока в неделю</p>
           </div>
-          <p class="price-value"><span><!-- PLACEHOLDER -->5 200</span> ₽</p>
+          <p class="price-value">7 000 ₽</p>
           <a class="btn btn-primary" href="#contact">Выбрать</a>
-        </article>
-        <article class="price-row reveal">
-          <div class="price-info">
-            <h3>Абонемент 8 уроков</h3>
-            <p><!-- PLACEHOLDER --> Максимальная выгода · приоритет слотов</p>
-          </div>
-          <p class="price-value"><span><!-- PLACEHOLDER -->9 600</span> ₽</p>
-          <a class="btn btn-ghost" href="#contact">Выбрать</a>
         </article>
       </div>
     </section>
 
     <section class="section reviews" id="reviews">
       <div class="section-head">
+        <p class="eyebrow">Ученики</p>
         <h2>Отзывы</h2>
-        <p>То, что пишут ученики после первых месяцев.</p>
       </div>
       <div class="reviews-track">
         <blockquote class="review reveal">
-          <p><!-- PLACEHOLDER --> «Через месяц уже играл песни, о которых мечтал. Уроки живые, без воды.»</p>
-          <footer><!-- PLACEHOLDER --> Алексей · 28 лет · электрогитара</footer>
+          <p>«Через месяц уже играл песни, о которых мечтал. Уроки живые, без воды.»</p>
+          <footer>Алексей · акустика</footer>
         </blockquote>
         <blockquote class="review reveal">
-          <p><!-- PLACEHOLDER --> «Дочке 9 лет — занимается с удовольствием. Видно, как растёт уверенность.»</p>
-          <footer><!-- PLACEHOLDER --> Марина · мама ученицы</footer>
+          <p>«Занимаюсь с удовольствием. Видно, как растёт уверенность и техника.»</p>
+          <footer>Марина · классическая гитара</footer>
         </blockquote>
         <blockquote class="review reveal">
-          <p><!-- PLACEHOLDER --> «Наконец понял ритм и аккомпанемент. Преподаватель слышит именно мой запрос.»</p>
-          <footer><!-- PLACEHOLDER --> Игорь · 34 года · акустика</footer>
+          <p>«Наконец понял ритм и аккомпанемент. Группа мотивирует двигаться дальше.»</p>
+          <footer>Игорь · акустика</footer>
         </blockquote>
       </div>
     </section>
 
     <section class="section contact" id="contact">
       <div class="contact-panel reveal">
-        <h2>Запишитесь на пробный урок</h2>
-        <p><!-- PLACEHOLDER --> Напишите в мессенджер — подберём время и расскажем, с чего начнёте.</p>
+        <p class="eyebrow light">Старт</p>
+        <h2>Запишись на урок</h2>
+        <p>Напиши в Telegram или на почту — расскажем, с чего начнёте, и подберём группу.</p>
         <div class="contact-actions">
-          <a class="btn btn-primary" href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
-          <a class="btn btn-ghost" href="https://wa.me/" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-          <a class="btn btn-ghost" href="mailto:hello@example.com">Email</a>
+          <a class="btn btn-primary" href="https://t.me/MuzSerafim" target="_blank" rel="noopener noreferrer">Telegram @MuzSerafim</a>
+          <a class="btn btn-ghost" href="mailto:Serafimusic@yandex.com">Serafimusic@yandex.com</a>
         </div>
-        <p class="contact-note"><!-- PLACEHOLDER --> Отвечаем обычно в течение дня</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-brand">
-      <span class="logo">Октава</span>
-      <p><!-- PLACEHOLDER --> Онлайн-школа гитары</p>
+      <span class="logo">Фим<span>Кино</span></span>
+      <p>Школа юных гитаристов</p>
     </div>
     <div class="footer-meta">
-      <p><!-- PLACEHOLDER --> © 2026 Октава</p>
-      <p><!-- PLACEHOLDER --> Город / часовой пояс</p>
+      <p>© 2026 ФимКино</p>
+      <a href="https://t.me/MuzSerafim" target="_blank" rel="noopener noreferrer">@MuzSerafim</a>
     </div>
   </footer>
 
